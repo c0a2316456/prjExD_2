@@ -29,7 +29,7 @@ def main():
     bb_rct = bb_img.get_rect()
     bb_rct.center = random.randint(0, WIDTH), random.randint(0, HEIGHT)
     bb_img.set_colorkey((0, 0, 0))
-    vx, vy = (5,5)
+    vx, vy = +5, +5
 
     clock = pg.time.Clock()
     tmr = 0
